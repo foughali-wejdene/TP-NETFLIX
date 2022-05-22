@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: webservice1
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8668/eureka/
+  healthcheck:
+    enabled: true
+server:
+  port: 8181
